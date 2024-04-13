@@ -9,10 +9,11 @@ class LoginScreen extends StatelessWidget {
         child: SafeArea(
           child: Form(
             key: _form,
-            child: const Column(
+            child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
+                Image.asset("assets/image/1.png"),
                 Text(
                   "Welcome to Login Dashboard",
                   textAlign: TextAlign.center,
